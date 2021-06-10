@@ -21,7 +21,7 @@ namespace Dotz.ProgramaFidelidade.Domain.Models.ClienteContext
         public string NumeroRG { get; private set; }
         public DateTime DataNascimento { get; private set; }
         public DateTime DataCadastro { get; private set; }
-        public DateTime DataAtualizacao { get; private set; }
+        public DateTime? DataAtualizacao { get; private set; }
         public bool CadastroAtivo { get; private set; }
 
         public override string ToString()

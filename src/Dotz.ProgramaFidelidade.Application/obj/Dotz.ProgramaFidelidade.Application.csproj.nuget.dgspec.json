@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Domain\\Dotz.ProgramaFidelidade.Domain.csproj": {}
+    "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Application\\Dotz.ProgramaFidelidade.Application.csproj": {}
   },
   "projects": {
-    "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Domain\\Dotz.ProgramaFidelidade.Domain.csproj": {
+    "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Application\\Dotz.ProgramaFidelidade.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Domain\\Dotz.ProgramaFidelidade.Domain.csproj",
-        "projectName": "Dotz.ProgramaFidelidade.Domain",
-        "projectPath": "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Domain\\Dotz.ProgramaFidelidade.Domain.csproj",
+        "projectUniqueName": "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Application\\Dotz.ProgramaFidelidade.Application.csproj",
+        "projectName": "Dotz.ProgramaFidelidade.Application",
+        "projectPath": "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Application\\Dotz.ProgramaFidelidade.Application.csproj",
         "packagesPath": "C:\\Users\\crisj\\.nuget\\packages\\",
-        "outputPath": "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Domain\\obj\\",
+        "outputPath": "D:\\Trabalho\\Particular\\Dotz\\src\\Dotz.ProgramaFidelidade.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
