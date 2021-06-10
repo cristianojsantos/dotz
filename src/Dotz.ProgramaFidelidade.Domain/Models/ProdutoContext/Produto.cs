@@ -1,4 +1,7 @@
-﻿namespace Dotz.ProgramaFidelidade.Domain.Models.ProdutoContext
+﻿using System.Collections.Generic;
+using Dotz.ProgramaFidelidade.Domain.Models.PedidoContext;
+
+namespace Dotz.ProgramaFidelidade.Domain.Models.ProdutoContext
 {
     public class Produto
     {
@@ -9,6 +12,8 @@
             CodigoCategoria = codigoCategoria;
             DescricaoProduto = descricaoProduto;
             ValorPontoResgate = valorPontoResgate;
+
+            PedidoResgateItem = new List<PedidoResgateItem>();
         }
 
         public int CodigoProduto { get; private set; }
@@ -18,6 +23,7 @@
         public decimal ValorPontoResgate { get; private set; }
 
         public virtual SubCategoria SubCategoria { get; set; }
+        public virtual ICollection<PedidoResgateItem> PedidoResgateItem { get; set; }
 
         
 
