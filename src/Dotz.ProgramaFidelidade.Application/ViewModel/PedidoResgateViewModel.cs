@@ -11,7 +11,7 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
             CodigoCliente = codigoCliente;
             DataPedido = dataPedido;
 
-            PedidoResgateItem = new List<PedidoResgateItem>();
+            PedidoResgateItem = new List<PedidoResgateItemViewModel>();
         }
 
         public int CodigoPedidoResgate { get; private set; }
@@ -19,6 +19,6 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
         public DateTime DataPedido { get; private set; }
 
         public virtual ClienteViewModel Cliente { get; set; }
-        public virtual ICollection<PedidoResgateItem> PedidoResgateItem { get; set; }
+        public virtual ICollection<PedidoResgateItemViewModel> PedidoResgateItem { get; set; }
     }
 }

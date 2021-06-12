@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Dotz.ProgramaFidelidade.Application\Dotz.ProgramaFidelidade.Application.csproj" />
     <ProjectReference Include="..\Dotz.ProgramaFidelidade.Domain\Dotz.ProgramaFidelidade.Domain.csproj" />
     <ProjectReference Include="..\Dotz.ProgramaFidelidade.Infra.Data\Dotz.ProgramaFidelidade.Infra.Data.csproj" />
   </ItemGroup>

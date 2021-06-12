@@ -5,9 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
-    <Folder Include="Interface\" />
-    <Folder Include="AutoMapper\" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dotz.ProgramaFidelidade.Domain\Dotz.ProgramaFidelidade.Domain.csproj" />
   </ItemGroup>
 
 </Project>

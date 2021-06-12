@@ -12,7 +12,7 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
             DescricaoProduto = descricaoProduto;
             ValorPontoResgate = valorPontoResgate;
 
-            PedidoResgateItem = new List<PedidoResgateItem>();
+            PedidoResgateItem = new List<PedidoResgateItemViewModel>();
         }
 
         public int CodigoProduto { get; private set; }
@@ -22,7 +22,7 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
         public decimal ValorPontoResgate { get; private set; }
 
         public virtual SubCategoriaViewModel SubCategoria { get; set; }
-        public virtual ICollection<PedidoResgateItem> PedidoResgateItem { get; set; }
+        public virtual ICollection<PedidoResgateItemViewModel> PedidoResgateItem { get; set; }
 
 
 
