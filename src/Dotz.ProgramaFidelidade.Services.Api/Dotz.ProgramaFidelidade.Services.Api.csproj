@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>88bd8be0-83d4-4f44-aee2-8c4c029c4f20</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dotz.ProgramaFidelidade.Application\Dotz.ProgramaFidelidade.Application.csproj" />
+    <ProjectReference Include="..\Dotz.ProgramaFidelidade.Identity\Dotz.ProgramaFidelidade.Identity.csproj" />
+    <ProjectReference Include="..\Dotz.ProgramaFidelidade.IoC\Dotz.ProgramaFidelidade.IoC.csproj" />
+  </ItemGroup>
+
+
+</Project>

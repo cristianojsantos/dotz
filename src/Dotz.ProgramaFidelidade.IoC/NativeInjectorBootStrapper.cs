@@ -1,6 +1,7 @@
 ﻿using Dotz.ProgramaFidelidade.Application.Interface;
 using Dotz.ProgramaFidelidade.Application.Services;
 using Dotz.ProgramaFidelidade.Domain.Interface;
+using Dotz.ProgramaFidelidade.Infra.Data.Context;
 using Dotz.ProgramaFidelidade.Infra.Data.Repository;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -34,6 +35,8 @@ namespace Dotz.ProgramaFidelidade.IoC
             services.AddScoped<ISubCategoriaRepository, SubCategoriaRepository>();
             services.AddScoped<ITipoEnderecoRepository, TipoEnderecoRepository>();
             services.AddScoped<ITipoTelefoneContatoRepository, TipoTelefoneContatoRepository>();
+
+            services.AddScoped<DotzContext>();
         }
     }
 }

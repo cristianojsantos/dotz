@@ -4,11 +4,8 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
 {
     public class CategoriaViewModel
     {
-        public CategoriaViewModel(int codigoCategoria, string descricaoCategoria)
+        public CategoriaViewModel()
         {
-            CodigoCategoria = codigoCategoria;
-            DescricaoCategoria = descricaoCategoria;
-
             SubCategoria = new List<SubCategoriaViewModel>();
         }
 

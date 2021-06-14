@@ -4,15 +4,8 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
 {
     public class ClienteViewModel
     {
-        public ClienteViewModel(Guid codigoCliente, string nomeCliente, string numeroCPF, string numeroRG, DateTime dataNascimento, DateTime dataCadastro, DateTime dataAtualizacao)
+        public ClienteViewModel()
         {
-            CodigoCliente = codigoCliente;
-            NomeCliente = nomeCliente;
-            NumeroCPF = numeroCPF;
-            NumeroRG = numeroRG;
-            DataNascimento = dataNascimento;
-            DataCadastro = dataCadastro;
-            DataAtualizacao = dataAtualizacao;
         }
 
         public Guid CodigoCliente { get; private set; }

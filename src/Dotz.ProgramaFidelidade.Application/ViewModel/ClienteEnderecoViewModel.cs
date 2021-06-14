@@ -12,7 +12,7 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
         public Guid CodigoCliente { get; private set; }
         public int CodigoTipoEndereco { get; private set; }
         public string Logradouro { get; private set; }
-        public string NumeroEnderco { get; private set; }
+        public string NumeroEndereco { get; private set; }
         public string Complemento { get; private set; }
         public string Cep { get; private set; }
         public string Bairro { get; private set; }
@@ -27,7 +27,7 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
 
         public override string ToString()
         {
-            return $"{Logradouro}, {NumeroEnderco}, {Complemento}, {Cep}, {Bairro}, {Cidade}, {UF}".ToUpper();
+            return $"{Logradouro}, {NumeroEndereco}, {Complemento}, {Cep}, {Bairro}, {Cidade}, {UF}".ToUpper();
         }
     }
 }

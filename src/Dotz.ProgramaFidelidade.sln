@@ -22,17 +22,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotz.ProgramaFidelidade.Domain", "Dotz.ProgramaFidelidade.Domain\Dotz.ProgramaFidelidade.Domain.csproj", "{E5479E5C-A71D-4A6C-9750-8327106BB686}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotz.ProgramaFidelidade.Infra.Data", "Dotz.ProgramaFidelidade.Infra.Data\Dotz.ProgramaFidelidade.Infra.Data.csproj", "{EBFD939E-3277-4DD7-86D1-8994BF9E5D21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotz.ProgramaFidelidade.Infra.Data", "Dotz.ProgramaFidelidade.Infra.Data\Dotz.ProgramaFidelidade.Infra.Data.csproj", "{EBFD939E-3277-4DD7-86D1-8994BF9E5D21}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{CE78C4DD-4422-4505-924D-5A64218B1945}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 - CrossCutting", "{07EFACE2-9F5B-4EB2-A4A4-DD92E5C5674E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotz.ProgramaFidelidade.IoC", "Dotz.ProgramaFidelidade.IoC\Dotz.ProgramaFidelidade.IoC.csproj", "{381238B1-30A4-4799-A9C3-34356A9151F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotz.ProgramaFidelidade.IoC", "Dotz.ProgramaFidelidade.IoC\Dotz.ProgramaFidelidade.IoC.csproj", "{381238B1-30A4-4799-A9C3-34356A9151F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotz.ProgramaFidelidade.Identity", "Dotz.ProgramaFidelidade.Identity\Dotz.ProgramaFidelidade.Identity.csproj", "{85617F15-4FE3-4094-99B1-BE08B32C008B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotz.ProgramaFidelidade.Identity", "Dotz.ProgramaFidelidade.Identity\Dotz.ProgramaFidelidade.Identity.csproj", "{85617F15-4FE3-4094-99B1-BE08B32C008B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotz.ProgramaFidelidade.Application", "Dotz.ProgramaFidelidade.Application\Dotz.ProgramaFidelidade.Application.csproj", "{C61573F5-D1B1-4D1C-A3F7-319F29D057A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dotz.ProgramaFidelidade.Application", "Dotz.ProgramaFidelidade.Application\Dotz.ProgramaFidelidade.Application.csproj", "{C61573F5-D1B1-4D1C-A3F7-319F29D057A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotz.ProgramaFidelidade.Services.Api", "Dotz.ProgramaFidelidade.Services.Api\Dotz.ProgramaFidelidade.Services.Api.csproj", "{A19668BF-BE22-4FA6-9440-15FA80B34D1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -60,6 +62,10 @@ Global
 		{C61573F5-D1B1-4D1C-A3F7-319F29D057A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61573F5-D1B1-4D1C-A3F7-319F29D057A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61573F5-D1B1-4D1C-A3F7-319F29D057A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19668BF-BE22-4FA6-9440-15FA80B34D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19668BF-BE22-4FA6-9440-15FA80B34D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19668BF-BE22-4FA6-9440-15FA80B34D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19668BF-BE22-4FA6-9440-15FA80B34D1E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -77,6 +83,7 @@ Global
 		{381238B1-30A4-4799-A9C3-34356A9151F0} = {07EFACE2-9F5B-4EB2-A4A4-DD92E5C5674E}
 		{85617F15-4FE3-4094-99B1-BE08B32C008B} = {07EFACE2-9F5B-4EB2-A4A4-DD92E5C5674E}
 		{C61573F5-D1B1-4D1C-A3F7-319F29D057A1} = {F5A9F10E-C456-431A-BA74-B855C9B441C3}
+		{A19668BF-BE22-4FA6-9440-15FA80B34D1E} = {FDEAB15F-23F3-4DD8-AD9B-382FA672B0F0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9D2EA021-0377-4BDE-921C-B0A559D8C582}

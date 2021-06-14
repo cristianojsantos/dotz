@@ -4,12 +4,9 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
 {
     public class ClienteTelefoneContatoViewModel
     {
-        public ClienteTelefoneContatoViewModel(Guid codigoCliente, int codigoTipoContato, int numeroDDD, int numeroTelefone)
+        public ClienteTelefoneContatoViewModel()
         {
-            CodigoCliente = codigoCliente;
-            CodigoTipoContato = codigoTipoContato;
-            NumeroDDD = numeroDDD;
-            NumeroTelefone = numeroTelefone;
+
         }
 
         public Guid CodigoCliente { get; private set; }

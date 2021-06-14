@@ -4,7 +4,7 @@ namespace Dotz.ProgramaFidelidade.Domain.Models.ClienteContext
 {
     public class Cliente
     {
-        public Cliente(Guid codigoCliente, string nomeCliente, string numeroCPF, string numeroRG, DateTime dataNascimento, DateTime dataCadastro, DateTime dataAtualizacao)
+        public Cliente(Guid codigoCliente, string nomeCliente, string numeroCPF, string numeroRG, DateTime dataNascimento, DateTime dataCadastro, DateTime? dataAtualizacao)
         {
             CodigoCliente = codigoCliente;
             NomeCliente = nomeCliente;
@@ -23,6 +23,8 @@ namespace Dotz.ProgramaFidelidade.Domain.Models.ClienteContext
         public DateTime DataCadastro { get; private set; }
         public DateTime? DataAtualizacao { get; private set; }
         public bool CadastroAtivo { get; private set; }
+        public string Password { get; private set; }
+        public string Email { get; set; }
 
         public override string ToString()
         {

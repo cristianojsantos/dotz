@@ -2,9 +2,10 @@
 {
     public class TipoTelefoneContato
     {
-        public TipoTelefoneContato()
+        public TipoTelefoneContato(int codigoTipoTelefoneContato, string descricaoTipoTelefoneContato)
         {
-
+            CodigoTipoTelefoneContato = codigoTipoTelefoneContato;
+            DescricaoTipoTelefoneContato = descricaoTipoTelefoneContato;
         }
 
         public int CodigoTipoTelefoneContato { get; private set; }

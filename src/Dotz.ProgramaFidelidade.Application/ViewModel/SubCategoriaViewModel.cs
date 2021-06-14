@@ -2,11 +2,9 @@
 {
     public class SubCategoriaViewModel
     {
-        public SubCategoriaViewModel(int codigoSubCategoria, int codigoCategoria, string descricaoSubCategoria)
+        public SubCategoriaViewModel()
         {
-            CodigoSubCategoria = codigoSubCategoria;
-            CodigoCategoria = codigoCategoria;
-            DescricaoSubCategoria = descricaoSubCategoria;
+
         }
 
         public int CodigoSubCategoria { get; private set; }

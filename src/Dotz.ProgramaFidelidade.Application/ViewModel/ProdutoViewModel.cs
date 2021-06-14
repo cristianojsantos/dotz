@@ -4,14 +4,8 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
 {
     public class ProdutoViewModel
     {
-        public ProdutoViewModel(int codigoProduto, int codigoSubCategoria, int codigoCategoria, string descricaoProduto, decimal valorPontoResgate)
+        public ProdutoViewModel()
         {
-            CodigoProduto = codigoProduto;
-            CodigoSubCategoria = codigoSubCategoria;
-            CodigoCategoria = codigoCategoria;
-            DescricaoProduto = descricaoProduto;
-            ValorPontoResgate = valorPontoResgate;
-
             PedidoResgateItem = new List<PedidoResgateItemViewModel>();
         }
 

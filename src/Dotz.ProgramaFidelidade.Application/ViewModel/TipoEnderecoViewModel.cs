@@ -4,11 +4,8 @@ namespace Dotz.ProgramaFidelidade.Application.ViewModel
 {
     public class TipoEnderecoViewModel
     {
-        public TipoEnderecoViewModel(int codigoTipoEndereco, string descricaoTipoEndereco)
+        public TipoEnderecoViewModel()
         {
-            CodigoTipoEndereco = codigoTipoEndereco;
-            DescricaoTipoEndereco = descricaoTipoEndereco;
-
             ClienteEndereco = new List<ClienteEnderecoViewModel>();
         }
 

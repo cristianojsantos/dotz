@@ -17,7 +17,7 @@ namespace Dotz.ProgramaFidelidade.Domain.Models.PontuacaoContext
         public Guid CodigoCliente { get; private set; }
         public Guid CodigoLancamento { get; private set; }
         public DateTime DataLancamento { get; private set; }
-        public DateTime? DataExpiracaoPontos { get; private set; }
+        public DateTime DataExpiracaoPontos { get; private set; }
         public decimal ValorPontuacao { get; private set; }
 
         public virtual Cliente Cliente { get; set; }
