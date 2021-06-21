@@ -8,7 +8,12 @@ namespace Dotz.ProgramaFidelidade.Infra.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Categoria> builder)
         {
-            throw new System.NotImplementedException();
+            builder.HasKey(p => p.CodigoCategoria)
+                .HasName("Categoria_PK");
+
+            builder.Property(p => p.DescricaoCategoria)
+                .IsRequired()
+                .HasMaxLength(50);
         }
     }
 }

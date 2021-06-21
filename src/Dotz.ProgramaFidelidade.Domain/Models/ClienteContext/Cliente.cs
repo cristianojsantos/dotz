@@ -23,7 +23,8 @@ namespace Dotz.ProgramaFidelidade.Domain.Models.ClienteContext
         public DateTime DataCadastro { get; private set; }
         public DateTime? DataAtualizacao { get; private set; }
         public bool CadastroAtivo { get; private set; }
-        public string Password { get; private set; }
+        public string LoginUsuario { get; set; }
+        public string Senha { get; private set; }
         public string Email { get; set; }
 
         public override string ToString()

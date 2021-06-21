@@ -8,7 +8,8 @@ namespace Dotz.ProgramaFidelidade.Infra.Data.Mappings
     {
         public void Configure(EntityTypeBuilder<Produto> builder)
         {
-            throw new System.NotImplementedException();
+            builder.HasKey(p => p.CodigoProduto)
+                .HasName("Produto_PK");
         }
     }
 }
